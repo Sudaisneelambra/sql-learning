@@ -35,3 +35,13 @@
     syntax :- select * from <table_name>;
 
     eg : - select * from employees;
+
+5 - Alter the table column 
+    -----------------------
+    this use to add the column in the table
+
+    syntax :-  alter <table name >
+                add <column name> <data type>;
+    
+    eg :-   alter table employees
+            add age date
